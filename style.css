@@ -211,6 +211,11 @@ body {
                     flex-direction: column;
                     gap: 44px;
 
+                    img {
+                        width: 64px;
+                        height: 64px;
+                    }
+
                     .title {
                         font-weight: 700;
                         font-size: 22px;
@@ -265,6 +270,12 @@ body {
         justify-content: center;
         flex-direction: row;
         gap: 100px;
+
+        .logo {
+            width: 444px;
+            height: 444px;
+        }
+
         .inner-wrapper {
             padding: 0 0 5px 8;
             display: flex;
@@ -335,6 +346,11 @@ body {
             justify-content: space-between;
             align-items: center;
             gap: 32px;
+
+            img {
+                width: 168px;
+                height: 168px;
+            }
 
             .text-wrap {
                 display: flex;
@@ -446,6 +462,8 @@ body {
                 right: 0;
                 z-index: 0;
                 border-radius: 50% 50% 0 0 ;
+                width: 296px;
+                height: 296px;
             }
         }
 
@@ -516,7 +534,12 @@ body {
                     justify-content: center;
                     align-items: center;
                     gap: 44px;
-    
+                    
+                    img {
+                        width: 64px;
+                        height: 64px;
+                    }
+
                     .header {
                         font-weight: 700;
                         font-size: 20px;
@@ -741,7 +764,9 @@ body {
         padding: 0 0 0 8px;
 
         img {
-            border-radius: 50%;
+            border-radius: 50%;              
+            width: 444px;
+            height: 444px;
         }
 
         .inner-wrapper {
